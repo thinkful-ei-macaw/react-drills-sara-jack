@@ -3,15 +3,17 @@ import './Accordion.css';
 
 class Accordion extends React.Component {
 
-//section = [sec1, sec2, sec3] 
-// {title, content}
-
   constructor(props) {
     super(props);
     this.state = {
-      currentTab: 0
+      currentTab: -1,
     }
   }
+
+  static defaultProps = {
+    sections: [],
+  }
+
 
   handleClick(num) {
     this.setState({
