@@ -1,0 +1,22 @@
+.accordion-list {
+    list-style-type: none;
+    font-family: sans-serif;
+    max-width: 40%;
+}
+
+.accordion-list button {
+    border: 1px solid cyan;
+    background-color: rgb(16, 73, 73);
+    padding: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    margin-left: 35%;
+}
+
+.accordion-list-item {
+    font-size: 1em;
+    border: 1px solid gray;
+    padding: 1em;
+}
+
